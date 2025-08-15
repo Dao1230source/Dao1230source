@@ -34,4 +34,10 @@
    - 比如高中生需要查询高考时间，初中生需要查询中考时间，小学生则无须处理
 
 ### [Tree 树结构数据](https://github.com/Dao1230source/utility/blob/main/Tree.md)
+- 普通节点，只能有一个父节点，children按添加顺序排序
+  - `DefaultNode` 默认节点类型
+  - `DeepNode` 带有深度标识的Node类型
+  - `FlatNode` 展开Element的Node类型
+- 增强型节点类型，可以有多个父节点，children可自定义排序
+  - `DefaultEnhanceNode` 默认增强节点类型
 
