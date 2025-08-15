@@ -9,7 +9,7 @@
 - 支持本地+redis二级缓存
 - 支持批量操作只获取部分缓存时进行二次重试
 
-### [Assign 批量赋值](https://github.com/Dao1230source/utility)
+### [Assign 批量赋值](https://github.com/Dao1230source/utility/blob/main/Assign.md)
 
  Assign具有以下优势
 
@@ -32,3 +32,6 @@
    - 一些赋值有依赖关系，比如先通过studentId获取teacherId，再通过teacherId获取teacherName
 - 数据分类处理
    - 比如高中生需要查询高考时间，初中生需要查询中考时间，小学生则无须处理
+
+### [Tree 树结构数据](https://github.com/Dao1230source/utility/blob/main/Tree.md)
+
